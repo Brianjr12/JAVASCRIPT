@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+
+        <form id="calculator-form">
+            <div class="form-group">
+                <label for="primer-numero">Ingrese su primer número:</label>
+                <input type="text" id="primer-numero" placeholder="Ingrese su primer número">
+            </div>
+
+            <div class="form-group">
+                <label for="operador">Operador:</label>
+                <input type="text" id="operador" placeholder="+, -, /, *">
+            </div>
+
+            <div class="form-group">
+                <label for="segundo-numero">Ingrese su segundo número:</label>
+                <input type="text" id="segundo-numero" placeholder="Ingrese su segundo número">
+            </div>
+
+            <button type="submit" id="calcular">Calcular</button>
+        </form>
+
+        <p id="resultado"></p>
+    </div>
+
+</body>
+
+</html>

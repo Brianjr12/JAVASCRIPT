@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="./modal.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Formulario para crear una cuenta</title>
+</head>
+
+<body>
+
+  <form>
+    <h1>Crear una cuenta</h1>
+    <div class="form-group">
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="user-new" name="username" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Contraseña:</label>
+
+      <input type="password" id="password-new" name="password" required>
+
+      <button type="button" id="btn-show">
+        <i class="ri-eye-line login__eye" id="icon"></i>
+      </button>
+      <p id="password-secure" class="true d-none">La contraseña es segura</p>
+      <p id="password-no-secure" class="false d-none">La contraseña tiene que superior a 8 caracteres</p>
+    </div>
+    <input type="submit" value="Crear cuenta" id="sign-up">
+  </form>
+
+</body>
+
+</html>

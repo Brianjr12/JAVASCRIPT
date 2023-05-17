@@ -1,0 +1,27 @@
+body {
+    background-color: #202020;
+    color: #fff;
+    font-size: 25px;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#refresh {
+    cursor: pointer;
+    font-size: 20px;
+    width: 10%;
+    height: 10%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    margin: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

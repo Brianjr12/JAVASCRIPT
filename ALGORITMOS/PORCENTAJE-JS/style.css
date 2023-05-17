@@ -1,0 +1,34 @@
+* {
+    /* outline: 1px solid red; */
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+#form {
+    height: 60vh;
+    width: 70vh;
+}
+
+#numero {
+    margin-bottom: 15px;
+}
+
+#calcular {
+    margin-bottom: 15px;
+}
+
+#resultado {
+    font-size: 25px;
+}

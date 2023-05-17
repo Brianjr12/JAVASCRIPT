@@ -1,0 +1,35 @@
+body {
+    background-color: #202020;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
